@@ -46,9 +46,10 @@
         }
     },
     "PushNotification": {
-        "id": "racing_new_feature",
-        "appId": "racing",
+        "id": "racing_new_feature_2",
+        "app": "racing",
         "message": "New update available! Check out the latest features in the Racing app.",
+        "time": 300,
         "image": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
     }
 }
