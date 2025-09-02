@@ -9,7 +9,6 @@
         "racing": {
             "label": "Racing",
             "img": "https://cfx-nui-devhub_laptop/html/images/apps/racing.png",
-            "path": "http://88.198.12.245:5181/",
             "category": "premium",
             "rating": 5,
             "description": "Racing application for racing games",
