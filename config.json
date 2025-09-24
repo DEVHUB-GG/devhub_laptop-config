@@ -3,6 +3,10 @@
         {
             "appId": "racing",
             "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
+        },
+        {
+            "appId": "crimeTraders",
+            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
         }
     ],
     "Apps": {
