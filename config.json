@@ -55,5 +55,53 @@
         "message": "New update available! Check out the latest features in the Racing app.",
         "time": 300,
         "image": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
+    },
+    "CrimeTraders": {
+        "devhub_houseRobbery": {
+            "traderId": "trader_1",
+            "name": "Robbery",
+            "smallDescription": "A quick and stealthy theft.",
+            "description": "Steal valuable items from a location. Steal valuable items from a location.",
+            "bannerImage": "https://wallpapers.com/images/hd/gta-san-andreas-gangster-fight-0qv5iso74k58jan6.jpg",
+            "images": ["https://i.pinimg.com/736x/f9/6e/9f/f96e9f48cde58ed286bbf7a88b93c0ba.jpg", "https://i.ytimg.com/vi/eCTeQv7E0HU/maxresdefault.jpg"],
+            "link": "https://store.devhub.gg",
+            "rewards": {
+                "items": [
+                    { "name": "item_1", "quantity": 1 },
+                    { "name": "item_2", "quantity": 2 },
+                    { "name": "item_2", "quantity": 2 },
+                    { "name": "item_2", "quantity": 2 },
+                    { "name": "item_2", "quantity": 2 }
+                ],
+                "money": 1000,
+                "crimePoints": 500
+            },
+            "tasks": {
+                "uid_1": {
+                    "name": "Task 1",
+                    "description": "Steal a valuable item from a store.",
+                    "icon": "fas fa-user",
+                    "order": 1
+                },
+                "uid_2": {
+                    "name": "Task 2",
+                    "description": "Steal a valuable item from a store.",
+                    "icon": "fas fa-user",
+                    "order": 2
+                },
+                "uid_3": {
+                    "name": "Task 3",
+                    "description": "Steal a valuable item from a store.",
+                    "icon": "fas fa-user",
+                    "order": 3
+                },
+                "uid_4": {
+                    "name": "Task 4",
+                    "description": "Steal a valuable item from a store.",
+                    "icon": "fas fa-user",
+                    "order": 4
+                }
+            }
+        }
     }
 }
