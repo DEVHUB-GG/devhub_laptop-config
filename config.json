@@ -1,107 +1,260 @@
 {
-    "RecommendedApps": [
-        {
-            "appId": "racing",
-            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
-        },
-        {
-            "appId": "crimeTraders",
-            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/crimeTradersBanner.webp"
-        }
-    ],
-    "Apps": {
-        "racing": {
-            "label": "Racing",
-            "img": "https://cfx-nui-devhub_laptop/html/images/apps/racing.png",
-            "category": "premium",
-            "rating": 5,
-            "description": "Racing application for racing games",
-            "longDescription": "A competitive racing platform where you can join, host, and track races with detailed statistics and leaderboards.",
-            "author": "DEVHUB",
-            "size": 52,
-            "downloads": 1000,
-            "class": "premium",
-            "storeLink": "https://store.devhub.gg/",
-            "productLink": "https://store.devhub.gg/product/6440792-1",
-            "developerLogo": "https://upload.devhub.gg/dh_upload/devhubLogo.webp",
-            "galleryImages": [
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_1.webp",
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_2.webp",
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_3.webp",
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_4.webp",
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_5.webp",
-                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_6.webp"
-            ],
-            "fullScreen": true,
-            "reviews": [
-                {
-                    "user": "SpeedRacer",
-                    "rating": 5,
-                    "comment": "Amazing racing platform! Great graphics and smooth gameplay.",
-                    "date": "2025-08-13"
-                },
-                {
-                    "user": "RacingPro",
-                    "rating": 5,
-                    "comment": "Best racing app I've used. Love the competitive features and leaderboards.",
-                    "date": "2025-08-12"
-                }
-            ]
-        }
-    },
-    "PushNotification": {
-        "id": "racing_new_feature_2",
-        "app": "racing",
-        "message": "New update available! Check out the latest features in the Racing app.",
-        "time": 300,
-        "image": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
-    },
-    "CrimeActions": {
-        "devhub_houseRobbery": {
-            "traderId": "trader_1",
-            "name": "Robbery",
-            "smallDescription": "A quick and stealthy theft.",
-            "description": "Steal valuable items from a location. Steal valuable items from a location.",
-            "bannerImage": "https://wallpapers.com/images/hd/gta-san-andreas-gangster-fight-0qv5iso74k58jan6.jpg",
-            "images": ["https://i.pinimg.com/736x/f9/6e/9f/f96e9f48cde58ed286bbf7a88b93c0ba.jpg", "https://i.ytimg.com/vi/eCTeQv7E0HU/maxresdefault.jpg"],
-            "link": "https://store.devhub.gg",
-            "rewards": {
-                "items": [
-                    { "name": "item_1", "quantity": 1 },
-                    { "name": "item_2", "quantity": 2 },
-                    { "name": "item_2", "quantity": 2 },
-                    { "name": "item_2", "quantity": 2 },
-                    { "name": "item_2", "quantity": 2 }
-                ],
-                "money": 1000,
-                "crimePoints": 500
+   "RecommendedApps":[
+      {
+         "appId":"racing",
+         "bannerImage":"https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
+      },
+      {
+         "appId":"crimeTraders",
+         "bannerImage":"https://upload.devhub.gg/dh_upload/laptop/appStore/crimeTradersBanner.webp"
+      }
+   ],
+   "Apps":{
+      "racing":{
+         "label":"Racing",
+         "img":"https://cfx-nui-devhub_laptop/html/images/apps/racing.png",
+         "category":"premium",
+         "rating":5,
+         "description":"Racing application for racing games",
+         "longDescription":"A competitive racing platform where you can join, host, and track races with detailed statistics and leaderboards.",
+         "author":"DEVHUB",
+         "size":52,
+         "downloads":1000,
+         "class":"premium",
+         "storeLink":"https://store.devhub.gg/",
+         "productLink":"https://store.devhub.gg/product/6440792-1",
+         "developerLogo":"https://upload.devhub.gg/dh_upload/devhubLogo.webp",
+         "galleryImages":[
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_1.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_2.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_3.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_4.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_5.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/racing/image_6.webp"
+         ],
+         "fullScreen":true,
+         "reviews":[
+            {
+               "user":"SpeedRacer",
+               "rating":5,
+               "comment":"Amazing racing platform! Great graphics and smooth gameplay.",
+               "date":"2025-08-13"
             },
-            "tasks": {
-                "uid_1": {
-                    "name": "Task 1",
-                    "description": "Steal a valuable item from a store.",
-                    "icon": "fas fa-user",
-                    "order": 1
-                },
-                "uid_2": {
-                    "name": "Task 2",
-                    "description": "Steal a valuable item from a store.",
-                    "icon": "fas fa-user",
-                    "order": 2
-                },
-                "uid_3": {
-                    "name": "Task 3",
-                    "description": "Steal a valuable item from a store.",
-                    "icon": "fas fa-user",
-                    "order": 3
-                },
-                "uid_4": {
-                    "name": "Task 4",
-                    "description": "Steal a valuable item from a store.",
-                    "icon": "fas fa-user",
-                    "order": 4
-                }
+            {
+               "user":"RacingPro",
+               "rating":5,
+               "comment":"Best racing app I've used. Love the competitive features and leaderboards.",
+               "date":"2025-08-12"
             }
-        }
-    }
+         ]
+      }
+   },
+   "PushNotification":{
+      "id":"racing_new_feature_2",
+      "app":"racing",
+      "message":"New update available! Check out the latest features in the Racing app.",
+      "time":300,
+      "image":"https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
+   },
+   "CrimeActions":{
+      "devhub_truckRobbery":{
+         "enabled":true,
+         "traderId":"trader_3",
+         "name":"Truck Robbery",
+         "smallDescription":"Intercept and rob heavily guarded armored trucks.",
+         "description":"Join the queue and wait for your turn. Track the truck, hack its systems, set up a jammer at the destination, eliminate guards, and crack open the secured cargo.",
+         "bannerImage":"https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/truckRobbery/taskImage.webp",
+         "images":[
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/truckRobbery/img1.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/truckRobbery/img2.webp"
+         ],
+         "link":"https://store.devhub.gg",
+         "rewards":{
+            "items":[
+               {
+                  "name":"weapon_pistol",
+                  "quantity":1
+               }
+            ],
+            "money":1000,
+            "crimePoints":500,
+            "xp":250
+         },
+         "tasks":{
+            "uid_1":{
+               "name":"Join the queue",
+               "description":"Join the queue and wait for your turn.",
+               "icon":"fas fa-sign-in-alt",
+               "order":1
+            },
+            "uid_2":{
+               "name":"Receive GPS location",
+               "description":"You will receive a GPS marker showing where the truck will start its route.",
+               "icon":"fas fa-map-marker-alt",
+               "order":2
+            },
+            "uid_3":{
+               "name":"Hack the truck",
+               "description":"Drive close to the truck and start hacking. Not too close or they will detect you!",
+               "icon":"fas fa-laptop-code",
+               "order":3
+            },
+            "uid_4":{
+               "name":"Get final destination",
+               "description":"After successfully hacking the truck, you will receive the final destination coordinates.",
+               "icon":"fas fa-route",
+               "order":4
+            },
+            "uid_5":{
+               "name":"Activate the jammer",
+               "description":"Go to the destination and activate the jammer using your tablet.",
+               "icon":"fas fa-broadcast-tower",
+               "order":5
+            },
+            "uid_6":{
+               "name":"Wait for the truck",
+               "description":"Wait for the truck to arrive at the final destination.",
+               "icon":"fas fa-truck",
+               "order":6
+            },
+            "uid_7":{
+               "name":"Eliminate the guards",
+               "description":"Take down the guards protecting the truck.",
+               "icon":"fas fa-user-shield",
+               "order":7
+            },
+            "uid_8":{
+               "name":"Open the rear doors",
+               "description":"Open the back doors of the truck. You may need special items (Bomb, Blue Pendrive, or Red Pendrive).",
+               "icon":"fas fa-door-open",
+               "order":8
+            }
+         }
+      },
+      "devhub_airDrops":{
+         "enabled":true,
+         "traderId":"trader_2",
+         "name":"Air drops",
+         "smallDescription":"Receive random air drops at specified locations.",
+         "description":"Join the queue and wait for your turn. You will receive a notification and the air drop location on the map. Go to the location and collect the air drop.",
+         "bannerImage":"https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/airDrops/taskImage2.webp",
+         "images":[
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/airDrops/img1.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/airDrops/img3.webp"
+         ],
+         "link":"https://store.devhub.gg",
+         "rewards":{
+            "items":[
+               {
+                  "name":"weapon_pistol",
+                  "quantity":1
+               }
+            ],
+            "money":1000,
+            "crimePoints":500,
+            "xp":250
+         },
+         "tasks":{
+            "uid_1":{
+               "name":"Join the queue",
+               "description":"Join the queue and wait for your turn.",
+               "icon":"fas fa-sign-in-alt",
+               "order":1
+            },
+            "uid_2":{
+               "name":"Receive GPS location",
+               "description":"You will receive a GPS marker showing the area where the air drop will land.",
+               "icon":"fas fa-map-marker-alt",
+               "order":2
+            },
+            "uid_3":{
+               "name":"Wait for the drop",
+               "description":"Wait for the air drop to fall from the sky to the designated area.",
+               "icon":"fas fa-parachute-box",
+               "order":3
+            },
+            "uid_4":{
+               "name":"Deal with guards",
+               "description":"Depending on the drop type, guards may spawn that you need to eliminate, or none at all.",
+               "icon":"fas fa-user-shield",
+               "order":4
+            },
+            "uid_5":{
+               "name":"Open the air drop",
+               "description":"Open the air drop crate. Some may require a special item to unlock.",
+               "icon":"fas fa-box-open",
+               "order":5
+            },
+            "uid_6":{
+               "name":"Escape!",
+               "description":"Take your loot and get out of there before the police arrive.",
+               "icon":"fas fa-running",
+               "order":6
+            }
+         }
+      },
+      "devhub_houseRobbery":{
+         "enabled":true,
+         "traderId":"trader_1",
+         "name":"House Robbery",
+         "smallDescription":"A quick and stealthy theft.",
+         "description":"Steal valuable items from a location. The more you steal, the higher the chance the police will arrive.",
+         "bannerImage":"https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/houseRobbery/taskImage.webp",
+         "images":[
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/houseRobbery/img1.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/houseRobbery/img2.webp",
+            "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/houseRobbery/img4.webp"
+         ],
+         "link":"https://store.devhub.gg",
+         "rewards":{
+            "items":[
+               {
+                  "name":"weapon_pistol",
+                  "quantity":1
+               }
+            ],
+            "money":1000,
+            "crimePoints":500,
+            "xp":250
+         },
+         "tasks":{
+            "uid_1":{
+               "name":"Join the queue",
+               "description":"Join the queue and wait for your turn.",
+               "icon":"fas fa-sign-in-alt",
+               "order":1
+            },
+            "uid_2":{
+               "name":"Receive location",
+               "description":"You will receive a notification and the apartment location on the map.",
+               "icon":"fas fa-map-marker-alt",
+               "order":2
+            },
+            "uid_3":{
+               "name":"Pick the lock",
+               "description":"Use a lockpick on the door and enter the apartment.",
+               "icon":"fas fa-key",
+               "order":3
+            },
+            "uid_4":{
+               "name":"Loot the apartment",
+               "description":"Take everything you can. Be careful: the more you steal, the higher the chance the police will arrive.",
+               "icon":"fas fa-box-open",
+               "order":4
+            },
+            "uid_5":{
+               "name":"Steal 5 items",
+               "description":"Steal 5 items to receive rewards.",
+               "icon":"fas fa-gifts",
+               "order":5
+            },
+            "uid_6":{
+               "name":"Sell at pawn shop",
+               "description":"Sell all stolen items at the pawn shop.",
+               "icon":"fas fa-dollar-sign",
+               "order":6
+            }
+         }
+      }
+   }
 }
