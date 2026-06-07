@@ -1,6 +1,10 @@
 {
     "RecommendedApps": [
         {
+            "appId": "devhub_licenses",
+            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/licensesBanner.webp"
+        },
+        {
             "appId": "racing",
             "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
         },
