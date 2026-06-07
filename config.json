@@ -100,6 +100,11 @@
             "storeLink": "https://devhub.gg/",
             "productLink": "https://devhub.gg/product/7477007",
             "developerLogo": "https://upload.devhub.gg/dh_upload/devhubLogo.webp",
+            "galleryImages": [
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/licenses/image_1.webp",
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/licenses/image_2.webp",
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/licenses/image_3.webp"
+            ],
             "reviews": [
                 {
                     "user": "Tom",
