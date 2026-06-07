@@ -59,8 +59,8 @@
             "size": 52,
             "downloads": 1000,
             "class": "premium",
-            "storeLink": "https://store.devhub.gg/",
-            "productLink": "https://store.devhub.gg/",
+            "storeLink": "https://devhub.gg/",
+            "productLink": "https://devhub.gg/",
             "developerLogo": "https://upload.devhub.gg/dh_upload/devhubLogo.webp",
             "galleryImages": [
                 "https://cfx-nui-devhub_laptop/html/images/appGallery/crimeTraders.webp",
@@ -81,14 +81,43 @@
                     "date": "2025-08-11"
                 }
             ]
+        },
+        "devhub_licenses": {
+            "label": "Id cards & Licenses",
+            "img": "https://upload.devhub.gg/dh_upload/laptop/appStore/apps/licenses.webp",
+            "category": "premium",
+            "rating": 5,
+            "description": "Licenses application for managing your licenses",
+            "longDescription": "A comprehensive platform where you can view, manage, and track your licenses with detailed information and status updates.",
+            "size": 52,
+            "downloads": 1000,
+            "author": "DEVHUB",
+            "fullScreen": true,
+            "storeLink": "https://devhub.gg/",
+            "productLink": "https://devhub.gg/product/7477007",
+            "developerLogo": "https://upload.devhub.gg/dh_upload/devhubLogo.webp",
+            "reviews": [
+                {
+                    "user": "Tom",
+                    "rating": 5,
+                    "comment": "The license system is fantastic! It keeps everything organized and easy to manage.",
+                    "date": "2025-08-14"
+                },
+                {
+                    "user": "Sarah",
+                    "rating": 4,
+                    "comment": "I love the interface and how easy it is to check my licenses.",
+                    "date": "2025-08-15"
+                }
+            ]
         }
     },
     "PushNotification": {
-        "id": "racing_new_feature_2",
-        "app": "racing",
-        "message": "New update available! Check out the latest features in the Racing app.",
+        "id": "licenses_new_feature_3",
+        "app": "licenses",
+        "message": "New id card & license system is now available, check it out!",
         "time": 300,
-        "image": "https://upload.devhub.gg/dh_upload/laptop/appStore/racingBannerLaptop2.webp"
+        "image": "https://upload.devhub.gg/dh_upload/laptop/appStore/licensesBanner.webp"
     },
     "CrimeActions": {
         "devhub_truckRobbery": {
