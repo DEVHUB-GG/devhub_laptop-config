@@ -1,7 +1,7 @@
 {
     "RecommendedApps": [
         {
-            "appId": "devhub_licenses",
+            "appId": "licenses",
             "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/licensesBanner.webp"
         },
         {
@@ -86,7 +86,7 @@
                 }
             ]
         },
-        "devhub_licenses": {
+        "licenses": {
             "label": "Id cards & Licenses",
             "img": "https://upload.devhub.gg/dh_upload/laptop/appStore/apps/licenses.webp",
             "category": "premium",
