@@ -386,6 +386,145 @@
                     "order": 6
                 }
             }
+        },
+        "devhub_trainHeist": {
+            "enabled": true,
+            "traderId": "trader_2",
+            "name": "Train Heist",
+            "smallDescription": "Hack the rail network, intercept a cargo train and raid its freight.",
+            "description": "Join the queue and wait for your slot. Collect the heist vehicle from a depot, breach the rail network from an antenna, crack the access terminal, drive to the interception point and plant a device on the tracks. Once the train is forced to stop, raid the carriages, haul the cargo into your vehicle and deliver it to the drop-off.",
+            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/trainHeist/taskImage.webp",
+            "images": [
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/trainHeist/taskImage.webp",
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/trainHeist/img_1.webp"
+            ],
+            "link": "https://store.devhub.gg",
+            "rewards": {
+                "items": [],
+                "money": 1000,
+                "crimePoints": 500,
+                "xp": 250
+            },
+            "tasks": {
+                "uid_1": {
+                    "name": "Join the queue",
+                    "description": "Join the queue and wait for a free heist slot.",
+                    "icon": "fas fa-sign-in-alt",
+                    "order": 1
+                },
+                "uid_2": {
+                    "name": "Collect the heist vehicle",
+                    "description": "Head to the depot marked on your map and get into the heist vehicle to begin.",
+                    "icon": "fas fa-car",
+                    "order": 2
+                },
+                "uid_3": {
+                    "name": "Hack the antenna",
+                    "description": "Head to the antenna marked on your map and hack the monitor to breach the rail network.",
+                    "icon": "fas fa-satellite-dish",
+                    "order": 3
+                },
+                "uid_4": {
+                    "name": "Crack the terminal",
+                    "description": "Go to the access terminal and enter the code generated during the antenna hack.",
+                    "icon": "fas fa-terminal",
+                    "order": 4
+                },
+                "uid_5": {
+                    "name": "Reach the interception point",
+                    "description": "Travel to the interception point marked on your map.",
+                    "icon": "fas fa-location-crosshairs",
+                    "order": 5
+                },
+                "uid_6": {
+                    "name": "Plant the device",
+                    "description": "Plant the device (C4, jammer or EMP) on the tracks to force the train to stop.",
+                    "icon": "fas fa-bomb",
+                    "order": 6
+                },
+                "uid_7": {
+                    "name": "Raid the train",
+                    "description": "Once the train stops, loot the carriages, search the crates and load the cargo into your vehicle.",
+                    "icon": "fas fa-train",
+                    "order": 7
+                },
+                "uid_8": {
+                    "name": "Deliver the cargo",
+                    "description": "Drive the loaded vehicle to the drop-off location to complete the heist.",
+                    "icon": "fas fa-flag-checkered",
+                    "order": 8
+                }
+            }
+        },
+        "devhub_carThief": {
+            "enabled": true,
+            "traderId": "trader_1",
+            "name": "Car Thief",
+            "smallDescription": "Steal a high-end car from an underground car meet.",
+            "description": "Join the queue and wait for your turn. Travel to the car meet, identify the target vehicle with a car checker, clone its key, distract the owner, steal the car and deliver it to the buyer.",
+            "bannerImage": "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/carThief/taskImage.webp",
+            "images": [
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/carThief/img1.webp",
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/carThief/img2.webp",
+                "https://upload.devhub.gg/dh_upload/laptop/appStore/appGallery/crimeTraders/carThief/img3.webp"
+            ],
+            "link": "https://store.devhub.gg",
+            "rewards": {
+                "items": [],
+                "money": 2000,
+                "crimePoints": 600,
+                "xp": 300
+            },
+            "tasks": {
+                "uid_1": {
+                    "name": "Join the queue",
+                    "description": "Join the queue and wait for your turn.",
+                    "icon": "fas fa-sign-in-alt",
+                    "order": 1
+                },
+                "uid_8": {
+                    "name": "Meet your contact",
+                    "description": "Find the informant and talk to them to get the details of the job.",
+                    "icon": "fas fa-user-secret",
+                    "order": 2
+                },
+                "uid_2": {
+                    "name": "Travel to the car meet",
+                    "description": "A GPS marker will show the location of the car meet. Head there.",
+                    "icon": "fas fa-map-marker-alt",
+                    "order": 3
+                },
+                "uid_3": {
+                    "name": "Identify the target vehicle",
+                    "description": "Use the car checker to search license plates and find the wanted vehicle.",
+                    "icon": "fas fa-id-card",
+                    "order": 4
+                },
+                "uid_4": {
+                    "name": "Clone the vehicle key",
+                    "description": "Use the key cloner near the vehicle owner to copy the key without being noticed.",
+                    "icon": "fas fa-key",
+                    "order": 5
+                },
+                "uid_5": {
+                    "name": "Distract the owner",
+                    "description": "Talk to the vehicle owner and lure them away from the car.",
+                    "icon": "fas fa-comments",
+                    "order": 6
+                },
+                "uid_6": {
+                    "name": "Steal the vehicle",
+                    "description": "Use the cloned key to unlock the vehicle and drive off with it.",
+                    "icon": "fas fa-car-burst",
+                    "order": 7
+                },
+                "uid_7": {
+                    "name": "Deliver the vehicle",
+                    "description": "Drive the stolen vehicle to the buyer and hand it over to finish the job.",
+                    "icon": "fas fa-flag-checkered",
+                    "order": 8
+                }
+            }
         }
     }
 }
